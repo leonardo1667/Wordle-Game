@@ -8,13 +8,17 @@
     <script type="module" src="js/app.js"></script>
     <title>Word Wizard</title>
   </head>
-  <body>
+  <body onload="showAlert">
     <h1>Word Wizard</h1>
     <h4>Guess the word in 6 or less attempts</h4>
     <div id="game">
       <input id="userInput" type="text" maxlength="5">
       <div id="tiles"></div>
-
     </div>
   </body>
+  <script>
+    function showAlert(){
+  alert("Welcome To Leo's Game");
+}
+  </script>
 </html>

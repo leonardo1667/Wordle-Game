@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "surge": "^0.23.1"
   }
 }

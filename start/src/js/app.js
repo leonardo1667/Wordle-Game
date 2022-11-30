@@ -1,6 +1,6 @@
 // Write your code here
 import { gameOver, gameWon, addTile } from "./tiles";
-import { getWord, isInDictionary } from "./words";
+import { getWord, isInDictionary,} from "./words";
 
 const word = getWord();
 console.log(word);
